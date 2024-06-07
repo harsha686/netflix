@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    height: 97vh;
+    position: relative;
+    overflow: hidden;
+}
+.header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.34;
+    z-index: -1; 
+}
+.logo {
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 25px;
+    left: 10%;
+    height: 40px;
+}
+.lang {
+    top: 5%;
+    color: white;
+    height: 32px;
+    width: 122.4px;
+    position: absolute;
+    left: 73%;
+    text-align: center;
+    background-color: rgb(24, 23, 23);
+    border-radius: 0.25rem;
+    border: 1px s;
+}
+.sign:hover{
+    background-color: rgb(199, 37, 37);
+}
+.sign {
+    top: 5%;
+    position: absolute;
+    left: 82.6%;
+    font-size: 1rem;
+    color: white;
+    height: 32px;
+    width: 75.99px;
+    border-style: hidden;
+    border-radius: 0.25rem;
+    background-color: rgb(244, 41, 41);
+}
+html{
+    background-color: black;
+}
+.center{
+    color: rgb(255, 255, 255);
+    font-size:42px;
+}
+p{
+    color: white;
+    font-size:20px
+}
+.get:hover{
+    background-color: rgb(215, 26, 26);
+}
+.get{
+    font-size: 1.4rem;
+    color: white;
+    height: 55px;
+    width: 200px;
+    border-style: hidden;
+    border-radius: 0.29rem;
+    background-color:rgb(229, 9, 20);
+    margin-left: 6px;
+    margin-top: 15px;
+}
+#email{
+    color: white;
+    height: 50px;
+    width: 400px;
+    border-color: white;
+    border-radius: 0.29rem;
+    background-color: rgb(34, 33, 33);
+    opacity: 0.7;
+}
+.main{
+    position: absolute;
+    top: 47%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 60px;
+
+}
+::placeholder{
+    color: aliceblue;
+}
+.text1{
+    color: white;
+    position: absolute;
+    top: 200%;
+}
